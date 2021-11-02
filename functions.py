@@ -14,7 +14,6 @@ def establish_connection(url,auth):
     return token
 
 def devices_list(url,token):
-
     path = "/dna/intent/api/v1/network-device"
     headers = {
         "Content-Type": "application/json",
